@@ -6,7 +6,7 @@ from PIL import Image
 
 
 def load_model():
-    return YOLO("model/best.pt")
+    return YOLO("./model/best.pt")
 
 
 model = load_model()
